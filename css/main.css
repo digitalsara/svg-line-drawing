@@ -13,3 +13,33 @@ h1 {
   left: 1em;
   width: 6em;
 }
+
+#rainbow-violet {
+  animation: stroke 1s linear forwards;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
+
+#rainbow-indigo {
+
+}
+
+#rainbow-blue {
+
+}
+
+#rainbow-green {
+
+}
+
+#rainbow-yellow {
+
+}
+
+#rainbow-orange {
+
+}
+
+#rainbow-red {
+
+}
