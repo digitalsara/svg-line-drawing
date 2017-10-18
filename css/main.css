@@ -1,10 +1,5 @@
 html {
-  font-family: "Unica One", cursive;
-}
-
-.img-wrapper {
-  padding-top: 0;
-  top: 0;
+  font-family: "Unica One", sans-serif;
 }
 
 #narwhal-body {
@@ -13,12 +8,18 @@ html {
   stroke-dashoffset: 1981.415px;
 }
 
+#narwhal-eye {
+  animation: fade 3s ease;
+  opacity: 0;
+}
+
 h1 {
   animation: fade 3s ease;
   color: #fff;
   top: 2em;
   left: 1em;
   width: 6em;
+  z-index: 100;
 }
 
 #rainbow-violet {
@@ -64,6 +65,7 @@ h1 {
 }
 
 @keyframes stroke {
+
   to {
     stroke-dashoffset: 0;
   }
